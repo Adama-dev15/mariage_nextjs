@@ -60,8 +60,8 @@ const Accueil = () => {
       <section className="banner">
         <div className="container">
           <div className="text-container">
-            <div className="animated-text ">
-              MARIAGES PLANIFIÉS À LA PERFECTION.
+            <div className="animated-text">
+              <h2 className="">MARIAGES PLANIFIÉS À LA PERFECTION.</h2>
             </div>
           </div>
         </div>
