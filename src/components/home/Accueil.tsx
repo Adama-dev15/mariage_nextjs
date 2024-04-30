@@ -185,16 +185,28 @@ const Accueil = () => {
         <div className="container">
           <div className="evenement_inner">
             <div className="title">Événements récents</div>
-            <div className="images">
-              <div className="ev_img flex flex-col gap-5">
+            <div className="images ">
+              <div className="ev_img  flex flex-col gap-5 ">
                 <Image src={event_1} width={1000} height={300} alt="image" />
-                <Image src={event_2} width={1000} height={300} alt="image" />
+                <Image
+                  src={event_2}
+                  width={1000}
+                  height={300}
+                  alt="image"
+                  className="mb-5 md:mb-0"
+                />
               </div>
-              <div className="ev_img flex flex-col gap-5">
+              <div className="ev_img flex flex-col gap-5 ">
                 <Image src={event_3} width={1000} height={300} alt="image" />
-                <Image src={event_4} width={1000} height={300} alt="image" />
+                <Image
+                  src={event_4}
+                  width={1000}
+                  height={300}
+                  alt="image"
+                  className="mb-5 md:mb-0"
+                />
               </div>
-              <div className="ev_img flex flex-col gap-5 ev_img_3">
+              <div className="ev_img flex flex-col gap-5  ev_img_3">
                 <Image src={event_5} width={1000} height={300} alt="image" />
                 <Image src={event_6} width={1000} height={300} alt="image" />
               </div>
